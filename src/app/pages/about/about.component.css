@@ -1,8 +1,60 @@
 div {
-  height: 800px;
-  border: 1px solid black;
+  height: 600px;
 }
 
 .main {
+  height: 800px;
   background: url('code.jpg');
+  padding: 200px 350px;
+  color: white;
+  line-height: 30px;
+}
+
+.project {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left,
+.right {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.one > .right {
+  background: url('game.png');
+  background-size: 100%;
+}
+
+.one > .left {
+  padding: 100px;
+}
+
+.two > .left {
+  background: url('piano.png');
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+
+.two > .right {
+  padding: 100px;
+}
+
+.three > .right {
+  background: url('metro2.png');
+  background-size: 130%;
+  background-repeat: no-repeat;
+}
+
+.three > .left {
+  padding: 100px;
+}
+
+.name-title {
+  font-size: 72px;
+}
+
+.main > p {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
