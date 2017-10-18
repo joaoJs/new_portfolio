@@ -1,0 +1,8 @@
+div {
+  height: 800px;
+  border: 1px solid black;
+}
+
+.main {
+  background: url('code.jpg');
+}
