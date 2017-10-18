@@ -1,0 +1,28 @@
+.inner-nav {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
+.top-email,
+.sm-links {
+  height: 70px;
+  width: 50%;
+  box-sizing: border-box;
+}
+/*.sm-links,
+.top-email {
+  display: inline-block;
+  height: 100px;
+}*/
+
+.sm-links {
+  float: right;
+}
+
+.name,
+.routes {
+  height: 120px;
+  width: 50%;
+  box-sizing: border-box;
+}
