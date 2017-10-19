@@ -1,0 +1,32 @@
+.outer {
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.container {
+  margin:0 auto;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.col-md-4 {
+  border: 1px solid black;
+  height: 300px;
+}
+
+.text {
+  height: 250px;
+  background: rgb(187,148,97);
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  border: 1px solid black;
+}
+
+.bg {
+  padding:100px 0;
+  background: rgb(187,148,97);
+}
