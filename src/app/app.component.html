@@ -32,8 +32,31 @@
 <router-outlet></router-outlet>
 
 <footer>
+
+<div class="footer-outer">
+<div class="map-wrapper">
+  <agm-map
+  [latitude]="25.7617"
+  [longitude]="-80.1918"
+  [zoom]="11">
+  <agm-marker
+  [latitude]="25.7617"
+  [longitude]="-80.1918">
+  </agm-marker>
+</agm-map>
+</div>
+<div class="middle">
+
+</div>
+<div class="contact">
+
   <h2> Contact Me</h2>
   <p> Miami, FL USA</p>
   <p> j.campos4g@gmail.com </p>
   <p> 786 828 1756</p>
+
+</div>
+</div>
+
+
 </footer>
